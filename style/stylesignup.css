@@ -1,0 +1,57 @@
+header{
+    width: 100%;
+    padding: 10px;
+    
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+   
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+
+}
+.list ul{
+    margin: 0px;
+    padding: 10px;
+}
+
+.list ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 25px;
+    text-transform: capitalize;
+    font-size: 22px;
+    text-decoration: none;
+    color: #1e266d;
+    
+}
+.list ul li a{
+    text-decoration: none;
+    cursor:auto; 
+}
+.btn button {
+    background-color:#2e367d ;
+    color: white;
+    padding: 17px 35px;
+    font-size: 18px;
+    border: 0px;
+    text-align:center;
+
+}
+.btn button a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    color: #fff;
+}
+
+.btn button:hover{
+    background-color:#0071cc;
+}
